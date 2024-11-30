@@ -1,0 +1,22 @@
+# Exercice 4
+#EEMI/BDD
+
+| Propriété        | Commentaire | Entité  | Type    | Identifiant |
+|------------------|-------------|---------|---------|-------------|
+| nomModele        |             | guitare | VARCHAR | x           |
+| nbCordes         |             | guitare | INT     |             |
+| nbMicro          |             | guitare | INT     |             |
+| matiereCorps     |             | guitare | VARCHAR |             |
+| matiereTables    |             | guitare | VARCHAR |             |
+| matiereManche    |             | guitare | VARCHAR |             |
+| numDevis         |             | devis   | INT     | x           |
+| nomClient        |             | devis   | VARCHAR |             |
+| prenomClient     |             | devis   | VARCHAR |             |
+| dateEnvoiDevis   |             | devis   | DATE    |             |
+| modeleGuitare    | FOREIGN KEY | devis   | VARCHAR |             |
+| nomFacture       |             | facture | INT     | x           |
+| dateEnvoiFacture |             | facture | DATE    |             |
+| estPayee         |             | facture | BOOLEAN |             |
+| devis            | FOREIGN KEY | facture | INT     |             |
+
+Daniel Fortuné, C1 B1.

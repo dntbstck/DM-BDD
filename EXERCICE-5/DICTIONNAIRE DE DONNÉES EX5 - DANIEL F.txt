@@ -1,0 +1,20 @@
+# Exercice 5
+#EEMI/BDD
+
+| Propriété   | Type     | Entité  | Identifiant |
+|-------------|----------|---------|-------------|
+| identifiant | INT      | contact | x           |
+| sujet       | VARCHAR  | contact |             |
+| typeCours   | VARCHAR  | contact |             |
+| trancheAge  | VARCHAR  | contact |             |
+| age         | INT      | contact |             |
+| nom         | VARCHAR  | contact |             |
+| prenom      | VARCHAR  | contact |             |
+| email       | VARCHAR  | contact |             |
+| telephone   | VARCHAR  | contact |             |
+| message     | TEXT     | contact |             |
+| dateContact | DATETIME | contact |             |
+
+Daniel Fortuné, C1 B1.
+
+

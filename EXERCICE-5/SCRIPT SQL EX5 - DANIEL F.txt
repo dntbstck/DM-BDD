@@ -1,0 +1,22 @@
+# Exercice 5
+#EEMI/BDD
+
+```
+CREATE TABLE CONTACT (
+    identifiant INT PRIMARY KEY,
+    sujet VARCHAR(255),
+    typeCours VARCHAR(255),
+    trancheAge VARCHAR(255),
+    age INT,
+    nom VARCHAR(100),
+    prenom VARCHAR(100),
+    email VARCHAR(100),
+    telephone VARCHAR(20),
+    message TEXT,
+    dateContact DATETIME
+);
+```
+
+Daniel Fortuné, C1 B1.
+
+

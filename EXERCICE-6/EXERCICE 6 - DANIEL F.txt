@@ -1,0 +1,34 @@
+# Exercice 6
+#EEMI/BDD
+
+1. Auteurs encore en vie
+
+```
+SELECT *
+FROM authors
+WHERE date_of_death IS NULL;
+```
+
+2. Auteurs français
+
+```
+SELECT *
+FROM authors
+WHERE country = 'France';
+```
+
+3. Livres écrits après 1980
+
+```
+SELECT *
+FROM books
+WHERE year > 1980;
+```
+
+4. Auteurs Jean non français
+
+```
+SELECT *
+FROM authors
+WHERE firstname = 'Jean' AND country <> 'France';
+```

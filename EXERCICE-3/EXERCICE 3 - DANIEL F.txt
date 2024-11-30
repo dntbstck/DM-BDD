@@ -1,0 +1,18 @@
+# Exercice 3
+#EEMI/BDD
+
+## Q. 1.
+
+Un patient peut effectuer plusieurs visites.
+
+## Q. 2.
+
+Un médecin ne peut recevoir qu’un patient par consultations.
+
+## Q. 3.
+
+Plusieurs médicaments peuvent-être prescrits pendant une consultation.
+
+## Q. 4.
+
+Un même medicament peut être prescrit par plusieurs médecins différents
